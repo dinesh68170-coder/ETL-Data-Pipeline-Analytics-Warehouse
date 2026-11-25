@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: etl-analytics-warehouse
+    env: python
+    buildCommand: pip install -r requirements.txt && python run_pipeline.py
+    startCommand: python app.py
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: DB_TYPE
+        value: sqlite

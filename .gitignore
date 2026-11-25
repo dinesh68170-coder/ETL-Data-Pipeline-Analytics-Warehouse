@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Database files
+*.sqlite3
+# Keep sample warehouse if desired or ignore
+# data/analytics_warehouse.db
+
+# Logs
+logs/*.log
+
+# Environment variables
+.env
+
+# OS artifacts
+.DS_Store
+Thumbs.db
